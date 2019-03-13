@@ -1,0 +1,1 @@
+This homework is about analysing shot data of five Golden State Warrior players during the 2016-2017 seeason. We filter the original dataset and create shot-charts for each player, and also see the overall number of 2 point and 3 point shots made per player in tables.
