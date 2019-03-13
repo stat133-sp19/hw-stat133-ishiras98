@@ -82,15 +82,15 @@ total_points_data
 #### Ishira Shrivatsa
 
 
-</center>
+```{r out.width = '80%', echo = FALSE}
 
-![](https://s.hdnux.com/photos/73/70/10/15696397/7/920x920.png) 
+knitr:: include_graphics('../images/article-image.png')
 
+```
 https://s.hdnux.com/photos/73/70/10/15696397/7/920x920.png
 
-<center/>
 
-Whether or not you are a sports fan, you must have heard about the Golden State Warriors, a.k.a the Warriors, in some context or another. You have watched some games with your basketball loving friends seen them track their scores and overall standings, and heard them chatting about their wins and losses on a daily basis. You have heard names like Kevin Durant and Stephen Curry amidst multiple conversations but are not really sure why they are any better than other NBA basketball players. Well, let's take a few minutes to see if their shot history during the 2016-2017 season provides us with some useful information. 
+Whether or not you are a sports fan, you must have heard about the Golden State Warriors, a.k.a the Warriors, in some context or another. You have probably watched some games with your basketball loving friends, seen them track their scores and overall standings, and heard them chatting about their wins and losses on a daily basis. You have heard names like Kevin Durant and Stephen Curry amidst multiple conversations but are not really sure why they are any better than other NBA basketball players. Well, let's take a few minutes to see if their shot history during the 2016-2017 season provides us with some useful information. 
 
 But first: here's a little background...
 
@@ -118,7 +118,7 @@ This is all great, but you must be wondering why the percentage data does not ne
 three_point_data
 ```
 
-Woah, Steph Curry is in the lead for his three-pointers, surpassing a total shooting volume of 650 and an effective shooting percentage of 40%. Thompson's three point shot history, is equally impressive. Given that a three-point shooting percentage of 40% is fairly difficult to achieve, clearly the Warriors are a major threat in this area. In fact, this observation is a classic example of Simpson's Paradox wherein a trend that appears in segmented data disappears when the data is combined as a whole. Although Curry and Thompson have the highest effective shooting percentages among three-point shot data, they fall lower in the list when both two-point and three-point data are combined. This is simply because of the difference in difficulty of these two types of shots. Now that you know this, don't let their overall effective shooting percentages fool you into thinking that they are less amazing than you've actually heard. On the whole, these five reputed players have made 763 out of 1932 total attempts, giving them an average effective three-point percentage score of 39.5%, a value that is higher than the league average for three-point shots.
+Woah, Steph Curry is in the lead for his three-pointers, surpassing a total shooting volume of 650 and an effective shooting percentage of 40%. Thompson's three point shot history, is equally impressive. Given that a three-point shooting percentage of 40% is fairly difficult to achieve, clearly the Warriors are a major threat in this area. In fact, this observation could be considered an example of Simpson's Paradox wherein a trend that appears in segmented data disappears when the data is combined as a whole. Although Curry and Thompson have the highest effective shooting percentages among three-point shot data, they fall lower in the list when both two-point and three-point data are combined. This is simply because of the difference in difficulty of these two types of shots. Now that you know this, don't let their overall effective shooting percentages fool you into thinking that they are less amazing than you've actually heard. On the whole, these five reputed players have made 763 out of 1932 total attempts, giving them an average effective three-point percentage score of 39.5%, a value that is higher than the league average for three-point shots.
 
 Given the effectiveness of these all-star three point shooters, do you think that other teams might have a better chance of winning inside the three-point line? Let's take a look at how the team fairs with respect to two-point shots. 
 
