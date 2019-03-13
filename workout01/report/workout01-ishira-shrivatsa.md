@@ -148,9 +148,9 @@ Why does everyone seem to be talking about the Warriors?
 #### Ishira Shrivatsa
 
 </center>
-![](https://s.hdnux.com/photos/73/70/10/15696397/7/920x920.jpg)
+![](https://s.hdnux.com/photos/73/70/10/15696397/7/920x920.png)
 
-<https://s.hdnux.com/photos/73/70/10/15696397/7/920x920.jpg>
+<https://s.hdnux.com/photos/73/70/10/15696397/7/920x920.png>
 
 <center/>
 Whether or not you are a sports fan, you must have heard about the Golden State Warriors, a.k.a the Warriors, in some context or another. You have watched some games with your basketball loving friends seen them track their scores and overall standings, and heard them chatting about their wins and losses on a daily basis. You have heard names like Kevin Durant and Stephen Curry amidst multiple conversations but are not really sure why they are any better than other NBA basketball players. Well, let's take a few minutes to see if their shot history during the 2016-2017 season provides us with some useful information.
