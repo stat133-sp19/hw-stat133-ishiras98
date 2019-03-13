@@ -1,3 +1,5 @@
+Data Dictionary:
+
 - team_name = the name of the team
 - game_date = the date of the game
 - season = the year that the NBA season started
