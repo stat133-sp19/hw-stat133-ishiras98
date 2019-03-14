@@ -1,7 +1,7 @@
 ##Title: Data Preparation
 ##Description: The purpose of this script is to prepare shots data from provided NBA data 
 ##Input: shots_data
-##Output: csv_document
+##Output: cleaned up shots_data (csv file)
 
 iguodala <- read.csv("../data/andre-iguodala.csv", stringsAsFactors = FALSE)
 iguodala$name = "Andre Iguodala"

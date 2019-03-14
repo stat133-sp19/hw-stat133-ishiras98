@@ -1,7 +1,7 @@
-##Title: Data Analysis 
+##Title: Data Analysis and Visualization
 ##Description: The purpose of this script is to make plots of the prepared shots data  
-##Input: shots_data
-##Output: shots_charts 
+##Input: cleaned_shots_data
+##Output: shots_charts (in png and pdf)
 
 library(jpeg)
 library(grid)
