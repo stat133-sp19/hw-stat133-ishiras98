@@ -26,42 +26,7 @@ library(ggplot2)
 ## Importing shots-data.csv 
 
 binded_df = read.csv("../data/shots-data.csv", stringsAsFactors = FALSE)
-head(binded_df, 10)
 ```
-
-    ##     X             team_name game_date season period minutes_remaining
-    ## 1   1 Golden State Warriors   3/24/17   2016      3                 2
-    ## 2   2 Golden State Warriors   11/3/16   2016      2                10
-    ## 3   3 Golden State Warriors  10/25/16   2016      2                 0
-    ## 4   4 Golden State Warriors   11/3/16   2016      2                11
-    ## 5   5 Golden State Warriors    1/8/17   2016      4                 0
-    ## 6   6 Golden State Warriors   3/16/17   2016      3                 5
-    ## 7   7 Golden State Warriors    1/2/17   2016      4                 7
-    ## 8   8 Golden State Warriors   12/7/16   2016      4                 9
-    ## 9   9 Golden State Warriors   2/28/17   2016      2                 0
-    ## 10 10 Golden State Warriors    2/1/17   2016      2                 0
-    ##    seconds_remaining shot_made_flag          action_type      shot_type
-    ## 1                 35        shot_no  Alley Oop Dunk Shot 2PT Field Goal
-    ## 2                 51        shot_no  Alley Oop Dunk Shot 2PT Field Goal
-    ## 3                  6       shot_yes  Alley Oop Dunk Shot 2PT Field Goal
-    ## 4                 10        shot_no Alley Oop Layup shot 2PT Field Goal
-    ## 5                 32       shot_yes    Cutting Dunk Shot 2PT Field Goal
-    ## 6                 30       shot_yes    Cutting Dunk Shot 2PT Field Goal
-    ## 7                 57       shot_yes    Cutting Dunk Shot 2PT Field Goal
-    ## 8                 31       shot_yes    Cutting Dunk Shot 2PT Field Goal
-    ## 9                 23       shot_yes    Cutting Dunk Shot 2PT Field Goal
-    ## 10                 2       shot_yes    Cutting Dunk Shot 2PT Field Goal
-    ##    shot_distance              opponent   x  y           name minute
-    ## 1              0      Sacramento Kings   0  1 Andre Iguodala     34
-    ## 2              1 Oklahoma City Thunder -12 13 Andre Iguodala     14
-    ## 3              0     San Antonio Spurs   0  1 Andre Iguodala     24
-    ## 4              1 Oklahoma City Thunder  -1 11 Andre Iguodala     13
-    ## 5              0      Sacramento Kings   0  1 Andre Iguodala     48
-    ## 6              0         Orlando Magic   0  1 Andre Iguodala     31
-    ## 7              0        Denver Nuggets   0  1 Andre Iguodala     41
-    ## 8              0  Los Angeles Clippers   0  1 Andre Iguodala     39
-    ## 9              0    Washington Wizards   0  1 Andre Iguodala     24
-    ## 10             0     Charlotte Hornets   0  1 Andre Iguodala     24
 
 ``` r
 ## 2PT Effective Shooting % by player

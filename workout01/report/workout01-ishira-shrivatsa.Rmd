@@ -16,7 +16,6 @@ library(ggplot2)
 ## Importing shots-data.csv 
 
 binded_df = read.csv("../data/shots-data.csv", stringsAsFactors = FALSE)
-head(binded_df, 10)
 ```
 
 ```{r}
