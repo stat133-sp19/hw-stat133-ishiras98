@@ -8,7 +8,7 @@ Data Dictionary:
 - seconds_remaining = the amount of time remaining in a given period (in seconds)
 - shot_made_flag = indicates whether or not a shot was made: (y) or (n)
 - action_type = the type of basketball moves used by players 
-- shot_type = the type of shot made- a three point or three point goal
+- shot_type = the type of shot made- a two point or three point goal
 - shot_distance = the distance to the basket (in feet)
 - opponent = the opposing team
 - x = court x-coordinate (in inches)
