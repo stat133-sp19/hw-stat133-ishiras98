@@ -137,7 +137,7 @@ knitr:: include_graphics('../images/gsw-shot-charts.png')
 
 ```
 
-This image makes it clear that Durant, Curry, and Thompson make shots from all around the court- they've taken shots right at the hoop, from every angle within the three-point line, and even from distances that are further back from the three-point line. Green and Iguodala, on the other hand, take more shots within the two-point line and right at the three-point line. Though the data for Iguodala is rather sparse, it is simply because he doesn't play as much as his other teammates. Perhaps these observations tie back to the nature of these players' defined positions as denfenders or shooters. 
+This image makes it clear that Durant, Curry, and Thompson make shots from all around the court- they've taken shots right at the hoop, from every angle within the three-point line, and even from distances that are further back from the three-point line. Green and Iguodala, on the other hand, take more shots within the two-point line and right at the three-point line. Though the data for Iguodala is rather sparse, it is simply because he doesn't play as much as his other teammates. Perhaps these observations tie back to the nature of these players' defined positions as defenders or shooters. 
 
 If I were to evaluate this data, I would say that Curry, Thompson, and Durant are flexible shooters who have demonstrated success in shooting from multiple areas in the court. Green and Iguodala, on the other hand, have made shots that are more concentrated around the hoop. The varying strengths of these players probably aids in team dynamic as it allows each of these players to take shots from a distance they are most comfortable with. 
 
