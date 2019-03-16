@@ -1,4 +1,5 @@
-Stat 133 Workout 1- Data Dictionary: GSW Datasets
+Stat 133 Workout 1
+Data Dictionary: GSW Datasets
 
 - team_name = the name of the team
 - game_date = the date of the game
