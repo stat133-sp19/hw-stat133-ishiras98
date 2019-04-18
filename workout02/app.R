@@ -36,7 +36,7 @@ ui <- fluidPage(
     column(4,
            
            # Slider bar 1 
-           sliderInput("amount", label = h3("Initial Amount"), min = 1000, 
+           sliderInput("amount", label = h3("Initial Amount"), min = 0, 
                        max = 100000, step = 500, pre = "$", value = 1000)
     ),
     column(4,
