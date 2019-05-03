@@ -2,7 +2,7 @@ Package: binomial
 Type: Package
 Title: Binomial Experiment
 Version: 0.1.0
-Authors@R: person("Neil", "Sharma", email = "nsharma1998@berkeley.edu",
+Authors@R: person("Ishira", "Shrivatsa", email = "ishira.s@berkeley.edu",
                   role = c("aut", "cre"))
 Description: Provides functions to simulate a binomial experiment.
 Depends:
