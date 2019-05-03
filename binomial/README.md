@@ -5,10 +5,23 @@ Overview
 
 The package `"binomial"` is an [R](http://www.r-project.org/) package that intends to simulate a binomial experiment and create a distribution of probabilities associated with a certain number of successes in the experiment.
 
+Functions in this package include:
+
+-   `bin_choose()` finds the number of ways in which 'k' successes can occur in 'n' trials.
+-   `bin_probability()` finds the probability of getting 'k' successes in 'n' trials.
+-   `bin_distribution()` outputs a data frame of the binomial probability associated with each number of successes. The distribution can then be plotted using the function `plot.bindis()`.
+-   `bin_cumulative()` computes both the probability distribution and cumulative probabilities of an experiment, and outputs the values in the form of a data frame. The results of this function can also be plotted using the function `plot.bincum()`.
+-   `bin_variable()` returns a list of named elements. The list should include the number of trials and probability of success. Summary measures such as `summary.binvar()` and `print.summary.binvar()` can be used to print the results of `bin_variable()` neatly.
+-   `bin_mean()` computes the mean of a binomial experiment.
+-   `bin_variance()` computes the variance of a binomial experiment.
+-   `bin_mode()` computes the mode of a binomial experiment.
+-   `bin_skewness()` computes the skewness of a binomial experiment.
+-   `bin_kurtosis()` computes the kurtosis of a binomial experiment.
+
 Motivation
 ----------
 
-This package has been developed to create a binomial library that easily allows users to calculate probabilities of binomial random variables and that allows one to visually depict binomial experiments using plots.
+This package has been developed to create a binomial library that easily allows users to calculate probabilities of binomial random variables depict binomial experiments using plots.
 
 Installation
 ------------
@@ -81,6 +94,9 @@ bin_mean(10, 0.3)
 #> [1] 3
 
 # variance of a binomial experiment with 10 trials and prob of success equal to 0.3
+
+bin_variance(10, 0.3)
+#> [1] 2.1
 
 # mode(s) of a binomial experiment with 10 trials and prob of success equal to 0.3
 
