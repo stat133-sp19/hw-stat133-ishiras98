@@ -33,7 +33,7 @@ Functions in this package include:
 
 ## Motivation 
 
-This package has been developed to create a binomial library that easily allows users to calculate probabilities of binomial random variables depict binomial experiments using plots.
+This package has been developed to create a binomial library that easily allows users to calculate probabilities of binomial random variables and  depict binomial experiments using plots.
 
 ## Installation
 
