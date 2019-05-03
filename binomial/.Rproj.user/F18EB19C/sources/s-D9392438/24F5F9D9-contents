@@ -1,0 +1,47 @@
+context("Checker arguments")
+
+test_that("check_prob works with a number between 0 and 1",{
+  expect_true(check_prob(0.2))
+  expect_true(check_prob(0.8))
+})
+
+test_that("check_prob fails with invalid lengths",{
+  expect_error(check_prob(1:5))
+  expect_error(check_prob(c(1/3,1/2)))
+})
+
+test_that("check_prob fails with invalid types",{
+  expect_error(check_prob("one"))
+  expect_error(check_prob(FALSE))
+})
+
+test_that("check_trials works with a nonnegative integer",{
+  expect_true(check_trials(4))
+  expect_true(check_trials(0))
+})
+
+test_that("check_trials fails with invalid lengths",{
+  expect_error(check_trials(1:5))
+  expect_error(check_trials(c(1/3,1/2)))
+})
+
+test_that("check_trials fails with invalid number",{
+  expect_error(check_trials(-5))
+  expect_error(check_trials(8.5))
+})
+
+test_that("check_success works with a valid vector of integers",{
+  expect_true(check_success(1:3,5))
+  expect_true(check_success(6,10))
+})
+
+test_that("check_success fails with success greater than trials",{
+  expect_error(check_success(4:8,5))
+  expect_error(check_success(7,3))
+})
+
+test_that("check_success fails with invalid numbers",{
+  expect_error(check_success(7.5,10))
+  expect_error(check_success(-5,10))
+  expect_error(check_success(-3.5,9))
+})
