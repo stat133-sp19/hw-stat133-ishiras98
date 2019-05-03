@@ -20,7 +20,7 @@ The package `"binomial"` is an [R](http://www.r-project.org/) package that inten
 
 ## Motivation 
 
-This package has been developed to create a binomial library that easily allows users to calculate probabilities of binomial random variables and that allows one to visually depict  binomial experiments using plots.
+This package has been developed to create a binomial library that easily allows users to calculate probabilities of binomial random variables depict binomial experiments using plots.
 
 ## Installation
 
