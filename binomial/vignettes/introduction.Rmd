@@ -90,7 +90,7 @@ dis2 <- bin_cumulative(trials = 5, prob = 0.5)
 plot(dis2)
 ```
 
-## Function= bin_variable()
+## Function- bin_variable()
 
 The function `bin_variable()` returns a list (of class "binvar") of named elements. The list should include the number of trials and probability of success. Hence, `bin_variable()` has *trials* and *prob* as its arguments.
 
