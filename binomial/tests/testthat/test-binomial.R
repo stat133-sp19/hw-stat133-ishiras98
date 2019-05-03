@@ -8,6 +8,7 @@ test_that("bin_choose works as expected", {
   expect_equal(bin_choose(n, k), 10)
   expect_length(bin_choose(n, k), 1)
   expect_type(bin_choose(n, k), "double")
+  expect_error(bin_choose(5,-2))
 })
 
 # bin_probability

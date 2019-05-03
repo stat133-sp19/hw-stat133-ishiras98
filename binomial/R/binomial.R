@@ -126,6 +126,12 @@ aux_kurtosis = function(trials, prob){
 #' bin_choose(5, 1:3)
 
 bin_choose = function(n,k){
+  if (check_trials(n) != TRUE){
+    stop("invalid trials value")
+  }
+  if (check_success(k, n) != TRUE){
+    stop("invalid success value")
+  }
   if (sum(k > n) > 0){
     stop("k cannot be greater than n")
   }
